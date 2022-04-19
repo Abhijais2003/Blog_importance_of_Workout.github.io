@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ramaraja&family=Red+Hat+Mono:wght@300&family=Ubuntu&display=swap');
+
+body{
+    /* margin: 10px; */
+    /* padding: 100px; */
+    background-color: rgb(236, 232, 232);   
+}
+.btn-home{
+    padding: 20px;
+}
+.btn-home button{
+    width: 80px;
+    padding: 5px 2px;
+    background-color: rgb(199, 218, 23);
+    border-radius: 5px;
+}
+.btn-home button a{
+    width: 80px;
+    padding: 2px 4px;
+    text-decoration: none;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+     /* font-size: 18px; */
+}
+.btn-home button a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.arrow{
+    color: black;
+    padding-right: 4px;
+}
+.mb-3{
+    margin: 0px 10px;
+    font-family:'Ubuntu', sans-serif;
+}
+.form-label{
+    padding: 5px 1px;
+    margin: 2px 0px;
+}
+#exampleFormControlInput1{
+    width: 300px;
+}
+#exampleFormControlInput2{
+    width: 350px;
+}
+#exampleFormControlInput3{
+    width: 200px;
+}
+#exampleFormControlInput4{
+    width: 250px;
+}
+#exampleFormControlInput5{
+    width: 220px;
+}
+#exampleFormControlInput6{
+    width: 220px;
+}
+#exampleFormControlTextarea1{
+    width: 70%;
+}
+#exampleFormControlTextarea2{
+    width: 70%;
+}
+.btn button{
+      position: relative;
+      width: 150px;
+      height: 50px;
+      background-color: rgb(23, 141, 214);
+      color: white;
+      border: 1px solid white;
+      border-radius: 38px;
+}
+.btn{ 
+      color: white;
+      display: flex;
+      justify-content: center;
+      font-family: 'Ubuntu', sans-serif;
+}
+.btn:hover{
+      opacity: 0.8;
+      font-size: larger;
+     font-family: 'Red Hat Mono', monospace;
+}
+.footer{
+    position: sticky;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   background-color: rgb(255, 119, 119) ;
+   height: 50px;
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+   padding-top: 15px;
+   font-size: 1.2rem;
+}
+.footer-1 a{
+     color: white;
+     text-decoration: none;   
+}
+.footer-1 a:hover{
+     color: black;
+     text-decoration: underline;   
+}
+.formerror{
+    color: red;
+}
