@@ -12,6 +12,7 @@
 
 body {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -111,7 +112,7 @@ body {
 }
 
 .h-primary {
-  padding-top: 109px;
+  padding-top: 90px;
     color: white;
     font-family: "Ubuntu", sans-serif;
     font-size: 3rem;
@@ -141,6 +142,10 @@ body {
   padding-top: 10px;
   text-shadow: 2px 2px 2px white;
   text-decoration: underline green;
+}
+
+#h1-third{
+     transition: ease-in-out;
 }
 
 /* Main-box */
